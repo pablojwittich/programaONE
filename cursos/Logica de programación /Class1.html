@@ -2,7 +2,11 @@
  A.PRIMEROS PASOS 
  1. Descargar editor de textos (vscode)
 A1. HTML
-HTML es un lenguaje de tipiado de hipertexto caracterizada por el uso de tags (etiquetas). Dicho lenguaje es interpretado por el navegador. 
+HTML es un lenguaje de tipiado de hipertexto caracterizada por el uso de tags g(etiquetas). Dicho lenguaje es interpretado por el navegador. 
+Esta divido en dos partes el Head (cabeza) lo que no se ve se y en el body (cuerpo) lo que se ve.
+Lo primero que hay que hacer para al escribir en HTML es decir la versión de HTML usaremos. Para esto haremos lo siguiente:
+    <!DOCTYPE html>
+Esto le dice al browser que usaremos la versión 5 de HTML. Luego de eso hira el tag <htmal></html> y luego el head y el body
 
 A2. Tags
 1. <h1> Es una etiqueta para insertar titulos, que van del h1 hasta 
@@ -12,14 +16,64 @@ el <h6>. Son etiquetas de cierre, su sintaxis es la siguiente:
 2. <a> Es un tag para crear links con una apariencia de texto de color azul, es de cierre y su sintaxis en la siguiente:
 <a href= "http://www.google.com">Google</a>
  La palabra Google es lo que se vera y el link es donde lo llevará 
+
 3. <p> Es una tag para insertar parrafos. Es una etiqueta de cierre. Su sintaxis es la siguiente:
  <p>Este es un parrafo</p>
-4. <br> Es una tag para hacer un salto de pagina. No es un etiqueta de cierre. 
- -->
-<h1>HOLA MUNDO!</h1>
-<br>
-<p>Esto no es un programa. Porque HTML no es un lenguaje de programación </p>
-<script>
-    alert("Javascrip si es un lenguaje de programmción")
-</script>
+ 
+4. <br> Es un tag para hacer un salto de pagina. No es un etiqueta de cierre. 
+
+5. <script> Es un tag para insertar codigo de JS
+
+A3. Convenciones de codificación
+1. Definir el conjunto de caracteres a utilizar. Para esto lo que haremos es:
+<meta charset="UTF-8"> (en la parte del head)
+2. Los tags van en minusculas
+3. No se usa la letra "ñ"
+
+Ej:
+ 
+<!DOCTYPE html>
+ <html>
+    <head>
+        <meta charset="UTF-8"
+        <script>
+            alert("Javascrip si es un lenguaje de programmción")
+        </script>
+
+    </head>
+    <body>
+        <h1>HOLA MUNDO!</h1>
+            <br>
+        <p>Esto no es un programa. Porque HTML no es un lenguaje de programación </p>
+
+    </body>
+ </html>
+
+B.JAVASCRIPT
+
+B1. Tipos de datos
+En JS hay diferentes tipos de datos. Algunos de ellos son:
+    - String: Son cadenas de textos y siempre van entre "comillas"
+    - Number: Son numeros, pueden ser enteros o decimales y no van entre comillas.
+    - Boolean: Representa una entidad logica y pueden tener dos valores true (verdadero) y false (falso)
+
+B2. Variables 
+Las variables es un contenedor para un valor o dato. Hay varias forma de definir una variable.
+Algunas de ellas es con palabra var. La sintaxis es la siguiente:
+var name = "Pablo";
+Donde name es el nombre de la variable y "Pablo" seria su valor (string).
+
+B3. Formamas de insertar JS en el sitio web
+    a. En el mismo documento HTML a travez de un tag (<script>)
+    b. En otra archivo distinto con extexción .js y enlazado en el head del html
+
+B4. Funciones 
+        
+
+B4. Convensiones 
+1. Agregar ; al final de cada linea
+
+-->
+
+
 
