@@ -56,6 +56,7 @@ La variable es un espacio de memoria donde tu almacenas un valor; existen varios
    // Esa es una forma la otra podria ser:
 
       byte entero1;
+
       entero1 = 12;
 
 /*
