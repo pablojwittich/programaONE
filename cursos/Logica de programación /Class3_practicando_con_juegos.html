@@ -1,20 +1,48 @@
 <canvas width="600" height="400"></canvas>
 <script>
+    /*  
     var pantalla = document.querySelector("canvas");
     var pincel = pantalla.getContext("2d");
-
+        
     pincel.fillStyle = "white"; //propiedad
     pincel.fillRect (0, 0, 600, 400); //función
-
+        
     pincel.fillStyle = "lightblue";
     pincel.fillRect (0,0,600,133);
-
+        
     pincel.fillStyle = "yellow";
     pincel.beginPath();
     pincel.arc(300, 200, 50, 0, 2*3.14);
     pincel.fill();
-
+    
     pincel.fillStyle = "lightblue";
     pincel.fillRect (0, 266, 600, 400);
+    */
 
+    var pantalla = document.querySelector("canvas")    ;
+    var pincel = pantalla.getContext("2d");
+    pincel.fillStyle = "lightgrey";
+    pincel.fillRect(0, 0, 600, 400);
+
+    function circuferencia (x, y, radio){
+        pincel.fillStyle = "red";
+        pincel.beginPath();
+        pincel.arc(x, y, radio, 0, 2*Math.PI);
+        pincel.fill();
+    }
+    
+    function clearPantalla() {
+        pincel.clearRect(0, 0, 600, 400);
+    }
+    
+    var x = 0;
+
+    function refreshPantalla(){
+        clearPantalla();
+        circuferencia(x, 20, 10);
+        x++;
+
+    }
+
+    setInterval(refreshPantalla(), 1000)
 </script>
