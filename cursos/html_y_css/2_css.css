@@ -1,0 +1,32 @@
+/* Para sacar las configuraciones por defecto del navegador hacemos lo siguiente
+El asterisco lo usamos para referimos que la siguiente configuración se aplicará a todo el sitio */
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+header {
+    background-color: grey; /* cambia color del headeer */
+    text-align: center; /* Alinea el texto en el centro */
+
+    /* Hace mas ancho el espacio de arriba y de abaojo  */
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+}
+a {
+    color: white; /* cambia el color  */
+    font-size: larger;
+}
+
+h2 {
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

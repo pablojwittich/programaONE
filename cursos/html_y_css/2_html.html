@@ -3,17 +3,55 @@
 Para crear un menu en html se usa el tag nav. Nav es una etiqueta de cierre.
 Dentro de nav se va insertar una lista no ordenada (<ul>) y dentro de cada <li></li> el tag <a> que sirve para crear un enlance a otras paginas de intenet.
  El nav se veria de la siguiente manera:
--->
-<nav>
-    <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="html/sobreNosotros.html">Sobre Noosotros</a></li>
-        <li><a href="html/contacto.html">Contacto</a></li>
-    </ul>
-</nav>
-<!-
+
+
 
 
 
 
 -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="2_css.css">
+        <title>Barberia Alura</title>
+
+    </head>
+    <body>
+        <header>
+            <h1> BARBERIA ALURA </h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="2_html.html">Inicio</a></li>
+                <!--
+                    En el caso que allá mas paginas del sitio:
+
+                    <li><a href="html/sobreNosotros.html">Sobre Noosotros</a></li>
+                    <li><a href="html/contacto.html">Contacto</a></li>
+                -->
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <article>
+                    <h2>Corte de Pelo</h2>
+                    <p>Precio:<strong>$800</strong></p>
+                </article>
+                
+                <article>
+                <h2>Corde de Barba</h2>
+                <p>Precio:<strong>$400</strong></p>
+            </article>
+            
+            <article>
+                <h2>Combo corte Pelo + Barba</h2> 
+                <p>Precio:<strong>$1000</strong></p>
+            </article>
+            
+            </section>
+        </main>
+
+    </body>
+</html>
