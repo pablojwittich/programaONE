@@ -63,6 +63,13 @@ public class java_deitel // *1
 
 *2 "{"
    Llave izquierda { comienza el cuerpo de todas las declaraciones de clases. Su correspondiente llave derecha (*7 ln 52) debe terminar cada declaración de una clase.
+---
 
+*3 "// El metodo main empieza con la ejecución de la aplicación en java"
+      El comentario india el proposito de las lineas posteriores del programa.
+---
+
+*4 "public static void main (String args[] )"
+      
 
 */
