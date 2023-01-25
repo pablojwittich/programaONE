@@ -53,7 +53,11 @@ public class java_deitel // *1
 
 /*
 *1 "public class java_detiel" 
-   Todo programa en java consiste de una declaración clase que uno define. La palabra class introduce a una declaración de clase en java, la cual debe ir seguida por el nombre de la clase (java_detiel)
+   Todo programa en java consiste de una declaración clase que uno define. La palabra class introduce a una declaración de clase en java, la cual debe ir seguida por el nombre de la clase (java_detiel).
+   Las palabras claves se reservan para el uso exclusivo de java.
+   Por convención todos los nombres de clases en javava comienxan conmayusscula de la misma forma que la primera letra de cada palabra. 
+   En Java, el nombre de una clase se conoce como identtificador: una serie de caracteres que pueden ser letras, digitos, guiones bajos y signos de moneda. Pero no puede comenzar con un digito y no puede tener espacios. Por lo gral el identificador NO comienza con una letra mayuscula.
+   Java es sensible a la mayusculas y a las minusculas.
 
 
 */
