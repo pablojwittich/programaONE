@@ -43,13 +43,13 @@ Los comentarios:
 // Programa para imprimir texto
 public class java_deitel // *1
 { // *2
-   // El metodo main empieza la ejecucion de la aplicacion en Java
-   public static void main(String args[])
+   // El metodo main empieza la ejecucion de la aplicacion en Java *3
+   public static void main(String args[]) // *4
    {
-      System.out.println("Bienvenido a la programacion en Java!");
-   } // Fin del metodo main
+      System.out.println("Bienvenido a la programacion en Java!"); // *5
+   } // Fin del metodo main *6
 
-} // Fin de la clase Bienvenido1
+} // Fin de la clase java_deitel *7
 
 /*
 *1 "public class java_detiel" 
@@ -62,7 +62,7 @@ public class java_deitel // *1
 ---
 
 *2 "{"
-
+   Llave izquierda { comienza el cuerpo de todas las declaraciones de clases. Su correspondiente llave derecha (*7 ln 52) debe terminar cada declaración de una clase.
 
 
 */
