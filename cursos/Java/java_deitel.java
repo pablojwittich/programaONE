@@ -42,7 +42,7 @@ Los comentarios:
 7. Mi primer programa */
 // Programa para imprimir texto
 public class java_deitel // *1
-{
+{ // *2
    // El metodo main empieza la ejecucion de la aplicacion en Java
    public static void main(String args[])
    {
@@ -58,6 +58,11 @@ public class java_deitel // *1
    Por convención todos los nombres de clases en javava comienxan conmayusscula de la misma forma que la primera letra de cada palabra. 
    En Java, el nombre de una clase se conoce como identtificador: una serie de caracteres que pueden ser letras, digitos, guiones bajos y signos de moneda. Pero no puede comenzar con un digito y no puede tener espacios. Por lo gral el identificador NO comienza con una letra mayuscula.
    Java es sensible a la mayusculas y a las minusculas.
+   Una clase public debe colocarse en un archivo que tenga el mismo nombre que la clase (en terminos de ortografia y de uso de mayuscula) y la extensión del archivo debe ser .java; de lo contrario ocurre un error de complilación.
+---
+
+*2 "{"
+
 
 
 */
