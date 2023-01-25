@@ -29,45 +29,31 @@ Java es un lenguaje de desarrollo de propósito general, y como tal es válido p
 - Genera aplicaciones con pocos errores posibles.
 - Incorpora Multi-Theanding (Multi-Hilos). Sirve para que las operaciones concurrentes se ejecuten ordenadamente.
 
- 
-*/  
-// 6. Mi primer programa en Java (HOLA MUNDO)
-public class java_ats { // A tener el cuenta que el nombre tiene que ser el mismo del archivo!
-    /**
-     * @param argas the command line arguments
-     */
-    public static void main(String[] args) {
-       System.out.println("Hola Mundo!"); // Tipiando "sout" nos rellenar esta porción del codigo
-    };
-   };
-/* 
-7. Variables y tipo de varibles
-La variable es un espacio de memoria donde tu almacenas un valor; existen varios tipos de variables algunas de ellas son:
-    a. Enterto: Variable que almacena datos de números enteros.
-    Nombre -> Tamaño -> Rango
-    Long -> 64 -> -9.223.372.036.854.775.808  a   9.223.372.854.775.807
-    init -> 32 -> -2.147.483.648 a 2.147.483.647
-    short -> 16 -> -32.768 a 32.767
-    byte -> 8 -> -128 a 127
-*/ 
-    //Ej: 
-      byte entero = 12;
+6. Tipos de comentarios
+- De una linea que se realizan con //
+- De multiples lineas que se realizan (/*)
+Los comentarios:
+   - Ayudan a documentar los programas
+   - Mejorar la legibilidad
+   - Ayudan a otras personas a leer y comprender el programa
+   - Se usan por convención antes de cada programa para explicar la funcion del mismo
+   - El compilador ignora los comentarios
 
-   // Esa es una forma la otra podria ser:
+7. Mi primer programa */
+// Programa para imprimir texto
+public class java_deitel // *1
+{
+   // El metodo main empieza la ejecucion de la aplicacion en Java
+   public static void main(String args[])
+   {
+      System.out.println("Bienvenido a la programacion en Java!");
+   } // Fin del metodo main
 
-      byte entero1;
-
-      entero1 = 12;
+} // Fin de la clase Bienvenido1
 
 /*
- b. Punto decimal o real 
-c. Caracter
-d, Booleanos
+*1 "public class java_detiel" 
+   Todo programa en java consiste de una declaración clase que uno define. La palabra class introduce a una declaración de clase en java, la cual debe ir seguida por el nombre de la clase (java_detiel)
 
 
 */
-
-
-
-
- */
