@@ -45,11 +45,11 @@ public class java_deitel // *1
 { // *2
    // El metodo main empieza la ejecucion de la aplicacion en Java *3
    public static void main(String args[]) // *4
-   {
-      System.out.println("Bienvenido a la programacion en Java!"); // *5
-   } // Fin del metodo main *6
+   { // *5
+      System.out.println("Bienvenido a la programacion en Java!"); // *6
+   } // Fin del metodo main *7
 
-} // Fin de la clase java_deitel *7
+} // Fin de la clase java_deitel *8
 
 /*
 *1 "public class java_detiel" 
@@ -70,6 +70,23 @@ public class java_deitel // *1
 ---
 
 *4 "public static void main (String args[] )"
-      
+      Es el punto de inicio de toda aplicación en Java. Los parentesis del indentificador "main" indican que este es un bloque de construcción del programa, al cual se le llama metodo. 
+      En Java solo un metodo debe llamarse "main" y debe definirse como se muestra, de no ser asi la JVM no ejecutara la aplicacion.
+      Los metodons pueden realizar una tarea y devolver la información una vez que las hayan concluido. La palabra clave "vooid" indica que este metodo realizara una tarea, pero no devolvera ningun tipo de informacion cuando complete su tarea. 
+      Las palabras "(String args[])" son una parte requeriada de la declaracion del metodo main.
+---
+
+*5 & *7 { }
+      Determinan el comienzo y el fin del cuerpo de la declaracion
+---
+
+*6 "System.ount.println("Bienvenido ...")"
+      Esta linea indica a la computadora que realice una accion, la cual es que imprima la cadena de caracteres contenida entre las comillas dobles.
+      Genericamente nos referimos a los caracteres entre comillas dobles como dobles cadenas. El compilador NO ignora el espacio en blaco dentro de las cadenas.
+      "System.out" se conose como el objeto de salida estandar y permite a las aplicaciones en java mostrar conjuntos de caracteres en la ventrada de comando, desde la cual se ejecuta la aplicacio en Java.
+      El metodo "System.out.println" muestra o imprime una linea de texto en la ventana de comandos, dicha cadena es un argumento para el metodo.
+      Toda esta linea *6 se conoce como instruccion y siempre debe terminar con punto y coma.
+
+TIPS 
 
 */
