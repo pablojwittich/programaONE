@@ -39,7 +39,7 @@ Los comentarios:
    - Se usan por convención antes de cada programa para explicar la funcion del mismo
    - El compilador ignora los comentarios
 
-7. Mi primer programa */
+7. Mi primer programa 
 // Programa para imprimir texto
 public class java_deitel // *1
 { // *2
@@ -92,4 +92,13 @@ public class java_deitel // *1
       - Para mejor legibilidad de los programas, agregue un comentario de fin de linea despues de la llave de cierre (}) que indique a que metodo o clase pertenece.
       - El mensaje de error de compilador "Public class NombreClase must be defined in a file called NombreClse.java" indica que el nombre del archivo no condice exactamente con el nombre de la clase public en el archivo, o que escribio el nombre de la clase en forma incorrecta al momento de comprimirla. 
 
+8. Modificacion del Primer Programa 
+8.1. Mostrar una sola line con varias instrucciones 
 */
+public class java_deitel {
+      public static void main ( String args[]){
+            System.out.print("Bienvenidos a ");
+            System.out.println( "la programación en Java"!);
+      }
+}
+      
