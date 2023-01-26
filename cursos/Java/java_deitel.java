@@ -98,7 +98,7 @@ public class java_deitel // *1
 public class java_deitel {
       public static void main ( String args[]){
             System.out.print("Bienvenidos a ");
-            System.out.println( "la programación en Java"!);
+            System.out.println( "la programación en Java!");
       }
 }
       
