@@ -86,7 +86,10 @@ public class java_deitel // *1
       "System.out" se conose como el objeto de salida estandar y permite a las aplicaciones en java mostrar conjuntos de caracteres en la ventrada de comando, desde la cual se ejecuta la aplicacio en Java.
       El metodo "System.out.println" muestra o imprime una linea de texto en la ventana de comandos, dicha cadena es un argumento para el metodo.
       Toda esta linea *6 se conoce como instruccion y siempre debe terminar con punto y coma.
+---
 
-TIPS 
+7.1. Tips para evitar erroes
+      - Para mejor legibilidad de los programas, agregue un comentario de fin de linea despues de la llave de cierre (}) que indique a que metodo o clase pertenece.
+      - El mensaje de error de compilador "Public class NombreClase must be defined in a file called NombreClse.java" indica que el nombre del archivo no condice exactamente con el nombre de la clase public en el archivo, o que escribio el nombre de la clase en forma incorrecta al momento de comprimirla. 
 
 */
