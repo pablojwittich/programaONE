@@ -95,10 +95,19 @@ public class java_deitel // *1
 8. Modificacion del Primer Programa 
 8.1. Mostrar una sola line con varias instrucciones 
 */
-public class java_deitel {
-      public static void main ( String args[]){
-            System.out.print("Bienvenidos a ");
-            System.out.println( "la programación en Java!");
-      }
-}
-      
+//public class java_deitel {
+//      public static void main ( String args[]){
+//            System.out.print("Bienvenidos a ");
+//            System.out.println( "la programación en Java!");
+//     }
+//}
+/* 
+La primera instruccion utiliza el metodo "print" de "System.out" para mostra una cadena. A diferencia de "println" el siguiente caracter aparecera inmeditamente despues del ultimo que se muestre print. 
+Por lo tanto la linea 101 coloca su primer caracter de su argumento (letra "l") imediatamente despues del ultimo de la linea 100 (" " el espacio).
+Cada instruccion print o println continua mostrando caracteres a partir de donde la ultima instrucción print o println dejo de mostrar.
+
+8.2. Mostrar marias lineas de texto en una sola instrucción
+
+
+
+*/      
