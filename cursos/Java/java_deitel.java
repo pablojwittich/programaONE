@@ -106,8 +106,19 @@ La primera instruccion utiliza el metodo "print" de "System.out" para mostra una
 Por lo tanto la linea 101 coloca su primer caracter de su argumento (letra "l") imediatamente despues del ultimo de la linea 100 (" " el espacio).
 Cada instruccion print o println continua mostrando caracteres a partir de donde la ultima instrucción print o println dejo de mostrar.
 
-8.2. Mostrar marias lineas de texto en una sola instrucción
+8.2. Mostrar marias lineas de texto en una sola instrucción*/      
+public class java_deitel {
+      public static void main(String args[]) {
+           System.out.println("Bienvenido\na\nla programación \nen Java!");
+      }
+}
+      
 
 
 
-*/      
+
+
+
+
+
+
