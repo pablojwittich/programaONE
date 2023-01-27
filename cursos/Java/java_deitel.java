@@ -112,6 +112,17 @@ public class java_deitel {
            System.out.println("Bienvenido\na\nla programación \nen Java!");
       }
 }
+
+/* 
+Por lo gral, los caracteres en una cadena se muestra exactamente como aparecen en las comillas dobles. Sin embargo hay una secuancia escape que puede que puede indicar a los metodos print y println de System.out que se va imprimir un caracter especial. Los caracteres de la secuancia escape tiene diversas funciones. Algunos de esos son:
+
+\n   -> Nueva linea -> Colaca el cursor de la pantalla en el inicio de la siguiente linea.
+\t   -> Tabulador Horizontal -> Desplaca el curzor de la pantalla hasta la siguiente posición del tabaulador.
+\r   -> Retorno de carro -> Coloca el cursor de la pantalla al inicio de la linea actual; no avanza a la siguiente linea. Cualquier caracter que se imprima despues del retorno sobre escribe los caracteres previamente impresos en esa linea. 
+\\   -> Barra diagonal inversa -> Se usa para imprimir un caracter de barra diagonal inversa.
+\"   -> Doble comillas -> Se usa para imprimir un caracter de doble comilla.
+
+ */
       
 
 
