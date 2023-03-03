@@ -3,14 +3,14 @@ public class CrearCuenta {
 		
 		Cuenta cuentaDiego = new Cuenta();
 		
-		cuentaDiego.salario = 100.54;
+		cuentaDiego.saldo = 100.54;
 		cuentaDiego.agencia = 01;
 		cuentaDiego.numero = 98765;
-		//Aparece error por que Diego no es un objeto. Como piede que sea ahora Cuenta
+		//Aparece error por que Diego no es un objeto. Como piede que sea ahora Cuenta.
 		//cuentaDiego.titular = "Diego";
 		
 		
-		// Con la nueva configuración se tendria que hacer lo siguiente
+		// Con la nueva configuración se tendria que hacer lo siguiente.
 		Cliente diegoCliente = new Cliente();
 		cuentaDiego.titular = diegoCliente;
 		
@@ -19,9 +19,10 @@ public class CrearCuenta {
 		diegoCliente.telefono = "987654321";
 		
 		
-		// Para ver que todo este ok realizamos lo sieguiente
+		// Para ver que todo este ok realizamos lo sieguiente.
 		System.out.println(cuentaDiego.titular.telefono);
 		
+		// Si imprime el numero de telefono esta todo ok.
 		 
 	}
 }

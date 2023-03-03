@@ -6,7 +6,7 @@ public class PruebaMetodos {
 		// Metodo depositar 
 		cuentaBelen.depositar(1000);
 		cuentaPablo.depositar(1000);
-		System.out.println("Saldo Belén es de $" + cuentaBelen.salario + " Saldo Pablo es de $" + cuentaPablo.salario);
+		System.out.println("Saldo Belén es de $" + cuentaBelen.saldo + " Saldo Pablo es de $" + cuentaPablo.saldo);
 		
 		// Metodo retirar 
 		cuentaBelen.retirar(500);
