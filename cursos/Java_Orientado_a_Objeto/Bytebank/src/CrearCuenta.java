@@ -6,7 +6,7 @@ public class CrearCuenta {
 		cuentaDiego.setSaldo(121.320);
 		cuentaDiego.setAgencia(001);
 		cuentaDiego.setNumero(98765);
-		cuentaDiego.retirar(200);
+		cuentaDiego.retirar(200)
 		
 		// Con la nueva configuración se tendria que hacer lo siguiente.
 		Cliente diegoCliente = new Cliente();

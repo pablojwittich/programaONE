@@ -47,5 +47,4 @@ public class Cuenta {
 		}
 		return false;
 	}
-	
 }
