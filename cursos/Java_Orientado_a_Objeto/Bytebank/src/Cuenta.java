@@ -11,27 +11,18 @@ public class Cuenta {
 	public double getSaldo() {
 		return saldo;
 	}
-	public void setSaldo(double saldo) {
-		this.saldo = saldo;
-	}
 // 	Agencia
-	public int getAgencia() {
-		return this.agencia;
-	}
 	public void setAgencia(int agencia) {
 		this.agencia = agencia;
 	}
 //	Numero
-	public int getNumero() {
-		return numero;
-	}
 	public void setNumero(int numero) {
 		this.numero = numero;
 	}
 
 // Metodos sin retorno
 	public void depositar(double valor) {
-		getSaldo() = -valor;
+		getSaldo() =- valor;
 		System.out.println("Su saldo actual es de $" + getSaldo());
 	}
 
