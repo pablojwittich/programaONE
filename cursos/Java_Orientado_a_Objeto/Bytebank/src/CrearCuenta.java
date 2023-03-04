@@ -3,12 +3,10 @@ public class CrearCuenta {
 		
 		Cuenta cuentaDiego = new Cuenta();
 		
-		cuentaDiego.saldo = 100.54;
-		cuentaDiego.agencia = 01;
-		cuentaDiego.numero = 98765;
-		//Aparece error por que Diego no es un objeto. Como piede que sea ahora Cuenta.
-		//cuentaDiego.titular = "Diego";
-		
+		cuentaDiego.setSaldo(121.320);
+		cuentaDiego.setAgencia(001);
+		cuentaDiego.setNumero(98765);
+		cuentaDiego.retirar(200);
 		
 		// Con la nueva configuración se tendria que hacer lo siguiente.
 		Cliente diegoCliente = new Cliente();
