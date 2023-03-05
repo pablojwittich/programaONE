@@ -4,18 +4,17 @@ public class TestReferencia2 {
 		Cliente ignacio = new Cliente();
 		
 		// Inicializando atributos de Cliente
-		ignacio.nombre = "Jose Ignacio";
-		ignacio.documento = "424561334";
-		ignacio.telefono = "381455681";
+		ignacio.setNombre("Jose Ignacio");
+		ignacio.setDocumento("424561334");
+		ignacio.setTelefono("381455681");
 		
 		// Creando cuenta nueva
-		Cuenta iganacioCuenta = new Cuenta();
+		Cuenta iganacioCuenta = new Cuenta(321);
 		
 		// Referenciando la cuenta con el cliente
-		iganacioCuenta.titular = ignacio; 
+		iganacioCuenta.setTitular(ignacio);
 		
-		// Probando...
-		System.out.println(iganacioCuenta.titular.nombre);
+		System.out.println(iganacioCuenta.getTitular());
 		
 	}
 }

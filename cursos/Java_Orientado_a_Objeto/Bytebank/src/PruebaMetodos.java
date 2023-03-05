@@ -1,7 +1,7 @@
 public class PruebaMetodos {
 	public static void main(String[] args) {
-		Cuenta cuentaPablo = new Cuenta();
-		Cuenta cuentaBelen = new Cuenta();
+		Cuenta cuentaPablo = new Cuenta(01);
+		Cuenta cuentaBelen = new Cuenta(02);
 		
 		// Metodo depositar 
 		cuentaBelen.depositar(1000);
