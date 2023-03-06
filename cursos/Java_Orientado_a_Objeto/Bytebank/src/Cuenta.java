@@ -4,6 +4,21 @@ public class Cuenta {
 	private int numero;
 	private Cliente titular = new Cliente();
 
+// 	Constructor
+	public static int totalCuenta = 0; // Variable estatica
+
+// 	Agencia
+	public Cuenta(int agencia) {
+		if (agencia <= 0) {
+			this.agencia = 1;
+			System.out.println("No se permiten numeros negativos ni cero");
+		} else {
+			this.agencia = agencia;
+		}
+		totalCuenta++; // Incrementa de a 1 cada vez que se crea una cuenta
+		//System.out.println("Se van creando " + totalCuenta + " cuentas");
+	}
+
 // 	Getter & setter
 
 	public void setSaldo(double saldo) {
@@ -34,19 +49,8 @@ public class Cuenta {
 		return titular;
 	}
 
-// Constructor
-	public static int totalCuenta = 0; // Variable estatica 
-
-	// Agencia 
-	public Cuenta(int agencia) {
-		if (agencia <= 0) {
-			this.agencia = 1;
-			System.out.println("No se permiten numeros negativos ni cero");
-		} else {
-			this.agencia = agencia;
-		}
-		totalCuenta++; // Incrementa de a 1 cada vez que se crea una cuenta
-		System.out.println("Se van creando " + totalCuenta + " cuentas");
+	public static int getTotalCuenta() {
+		return Cuenta.totalCuenta;
 	}
 
 // 	Métodos
