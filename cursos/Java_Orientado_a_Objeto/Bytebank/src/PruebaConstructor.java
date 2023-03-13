@@ -6,7 +6,7 @@ public class PruebaConstructor {
 		Cuenta felipeCuenta = new Cuenta(12309034);
 		
 		System.out.println(Cuenta.getTotalCuenta());
-		
+          
 		
 	
 	}
