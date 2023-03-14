@@ -8,5 +8,9 @@ public class TestGerente {
 		belen.setNombre("bella");
 		belen.setDocumento("41232450");
 		belen.setSalario(53000.324);
+		belen.setTipo(0);
+		belen.setClave("AluraLatam");
+		
+		System.out.println(belen.autenticar("AluraLatam"));
 	}
 }
