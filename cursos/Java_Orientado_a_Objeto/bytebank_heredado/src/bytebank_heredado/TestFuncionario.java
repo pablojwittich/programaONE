@@ -9,5 +9,6 @@ public class TestFuncionario {
 		pablo.setSalario(45000.32);
 		
 		System.out.println(pablo.getSalario());
+		System.out.println(pablo.getBonificacion());
 	}
 }
